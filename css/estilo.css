@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+header h1, header h1 span {
+  display: inline-block;
+  align-self: flex-end;
+  font-size: 35px; }
+
+main .columna h2 {
+  font-size: 30px;
+  color: white;
+  padding: 10px; }
+
+body {
+  background-image: url("../imagenes/fondo.jpeg");
+  background-position: center; }
+
+.caja {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  padding-top: 15px; }
+
+header {
+  width: 97%;
+  background-image: url("../imagenes/header.jpg");
+  background-size: 100%;
+  background-position: cover;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  padding: 25px; }
+  header h1 {
+    color: white; }
+    header h1 span {
+      color: red;
+      margin-left: 10px; }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: flex-start; }
+  main .columna {
+    display: flex;
+    flex-direction: column;
+    width: 31%; }
+    main .columna .titulouno {
+      background-color: red;
+      margin-right: 5px; }
+    main .columna .titulodos {
+      background-color: blue;
+      margin-right: 5px; }
+    main .columna .titulotres {
+      background-color: green; }
+    main .columna ol li {
+      margin-top: 20px; }
+    main .columna p {
+      margin-top: 20px;
+      margin-bottom: 25px; }
+  main .uno {
+    border-right: dotted red 5px; }
+  main .dos {
+    border-right: dotted blue 5px; }

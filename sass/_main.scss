@@ -1,0 +1,33 @@
+main { display: flex;
+       flex-wrap: wrap;
+       width: 97%;
+       margin:auto;
+       margin-top: 20px;
+       justify-content: space-between;
+       align-items: flex-start;
+
+       .columna { display: flex;
+       	          flex-direction: column;
+                  width: 31%;
+
+                  h2 { @extend %titulos }
+
+                  .titulouno { background-color: red;
+                               margin-right: 5px; }
+
+                  .titulodos { background-color: blue;
+                               margin-right: 5px; }
+
+                  .titulotres { background-color: green;}
+
+                  ol li { margin-top:20px; }
+
+                  p {margin-top:20px;
+                  	margin-bottom: 25px;}
+
+       }
+
+       .uno {border-right: dotted red 5px;}
+
+       .dos {border-right: dotted blue 5px;}
+ }

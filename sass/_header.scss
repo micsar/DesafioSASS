@@ -1,0 +1,23 @@
+header { width: 97%;
+	background-image: url("../imagenes/header.jpg");
+	background-size: 100%;
+	background-position: cover;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 25px;
+
+    h1 {
+
+        @extend %header;
+        color: white;
+
+    	span{ @extend %header;
+            color: red;
+            margin-left: 10px;
+    
+    	}
+
+    }
+
+ }
